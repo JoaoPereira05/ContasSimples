@@ -1,0 +1,13 @@
+
+N = int(input('Selecione um número: '))
+numero = N
+n = 1
+if N > 0:
+  while numero > 0:
+    n *= numero
+    numero -= 1
+  print(N, end = '')
+  print('! = ', n)
+else:
+  print('Selecione um número maior que zero.')
+  
